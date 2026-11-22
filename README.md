@@ -1,4 +1,3 @@
-
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/hero-m-light.svg" />
