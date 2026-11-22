@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 230" width="830" height="230" role="img" aria-label="Franklin R. | Software Engineer &amp; Builder">
+<rect x="0" y="0" width="830" height="230" rx="0" fill="#FBFAF3"/>
+<defs><pattern id="dots" width="11" height="11" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.12" fill="#D7D8CB" opacity=".62"/></pattern></defs>
+<rect x="0" y="47" width="830" height="183" rx="0" fill="url(#dots)"/>
+<rect x="0.5" y="0.5" width="829" height="229" rx="0" fill="none" stroke="#D5D5C7" stroke-width="1"/>
+<path d="M0 47L830 47" stroke="#D5D5C7" fill="none"/>
+<text x="24" y="30" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="750" fill="#66695E" letter-spacing="0.75">SOFTWARE ENGINEER &amp; BUILDER</text>
+<rect x="685" y="23" width="7" height="7" rx="4" fill="#138C4A"/>
+<text x="808" y="30" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="750" fill="#66695E" letter-spacing="0.65" text-anchor="end">EM EVOLUÇÃO</text>
+<text x="29" y="187" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="123" font-weight="900" fill="#20231F" letter-spacing="-7">Franklin R</text>
+<rect x="564" y="159" width="25" height="25" rx="12.5" fill="#D33A12"/>
+</svg>

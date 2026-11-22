@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 420" width="430" height="420" role="img" aria-label="Contato profissional Franklin Rodrigues">
+<rect x="0" y="0" width="430" height="420" rx="0" fill="#FBFAF3"/>
+<rect x="0.5" y="0.5" width="429" height="419" rx="0" fill="none" stroke="#D5D5C7" stroke-width="1"/>
+<text x="23" y="29" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="750" fill="#20231F" letter-spacing="1.2">CONTATO</text>
+<text x="407" y="29" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="650" fill="#838579" letter-spacing="0.5" text-anchor="end">VAMOS CONVERSAR</text>
+<path d="M0 46L430 46" stroke="#D5D5C7" fill="none"/>
+<text x="22" y="103" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="39" font-weight="900" fill="#20231F" letter-spacing="-1.65">Vamos construir</text>
+<text x="22" y="148" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="53" font-weight="900" fill="#D33A12" letter-spacing="-2.4">juntos.</text>
+<text x="22" y="175" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="500" fill="#66695E" letter-spacing="0">Trocas de ideias sobre tecnologia,</text>
+<text x="22" y="195" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="500" fill="#66695E" letter-spacing="0">produtos digitais e software.</text>
+<path d="M0 215L430 215" stroke="#D5D5C7" fill="none"/>
+<text x="21" y="238" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="750" fill="#66695E" letter-spacing="0.8">E-MAIL DIRETO</text>
+<text x="21" y="264" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="21" font-weight="800" fill="#20231F" letter-spacing="-0.5">rodrigues.tecnologia.dev</text>
+<text x="21" y="288" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="21" font-weight="800" fill="#20231F" letter-spacing="-0.5">@gmail.com</text>
+<path d="M0 304L430 304" stroke="#D5D5C7" fill="none"/>
+<path d="M215 304L215 420" stroke="#D5D5C7" fill="none"/>
+<text x="19" y="331" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="730" fill="#66695E" letter-spacing="0.6">LOCALIZAÇÃO</text>
+<text x="19" y="358" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="750" fill="#20231F" letter-spacing="0">Alagoas, Brasil</text>
+<text x="230" y="331" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="730" fill="#66695E" letter-spacing="0.6">FUSO HORÁRIO</text>
+<text x="230" y="358" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="750" fill="#20231F" letter-spacing="0">UTC-3</text>
+<path d="M0 380L430 380" stroke="#D5D5C7" fill="none"/>
+<text x="20" y="404" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="720" fill="#D33A12" letter-spacing="0.7">CONECTANDO IDEIAS</text>
+</svg>

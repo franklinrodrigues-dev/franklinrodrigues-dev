@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 293" width="430" height="293" role="img" aria-label="Sobre Franklin Rodrigues">
+<rect x="0" y="0" width="430" height="293" rx="0" fill="#0D1117"/>
+<rect x="0.5" y="0.5" width="429" height="292" rx="0" fill="none" stroke="#30322C" stroke-width="1"/>
+<text x="23" y="29" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="750" fill="#FFFFE3" letter-spacing="1.2">SOBRE MIM</text>
+<text x="407" y="29" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="650" fill="#929585" letter-spacing="0.5" text-anchor="end">DESENVOLVIMENTO DE SOFTWARE</text>
+<path d="M0 46L430 46" stroke="#30322C" fill="none"/>
+<text x="21" y="79" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="800" fill="#FFFFE3" letter-spacing="0">Tecnologia, aprendizado e</text>
+<text x="21" y="104" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="800" fill="#FFFFE3" letter-spacing="0">construção contínua.</text>
+<text x="21" y="134" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="450" fill="#C0C0AD" letter-spacing="0">Estou construindo minha trajetória no</text>
+<text x="21" y="155" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="450" fill="#C0C0AD" letter-spacing="0">desenvolvimento Full Stack, com interesse em</text>
+<text x="21" y="176" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="450" fill="#C0C0AD" letter-spacing="0">aplicações web, interfaces funcionais, APIs e</text>
+<text x="21" y="197" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="450" fill="#C0C0AD" letter-spacing="0">soluções que resolvam problemas reais.</text>
+<text x="21" y="229" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="450" fill="#C0C0AD" letter-spacing="0">Meu foco é aprender na prática, transformar</text>
+<text x="21" y="250" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="450" fill="#C0C0AD" letter-spacing="0">conhecimento em projetos e evoluir</text>
+<text x="21" y="271" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="450" fill="#C0C0AD" letter-spacing="0">continuamente como desenvolvedor.</text>
+</svg>

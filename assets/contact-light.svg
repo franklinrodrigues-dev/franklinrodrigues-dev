@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 327" width="830" height="327" role="img" aria-label="Contato profissional Franklin Rodrigues">
+<rect x="0" y="0" width="830" height="327" rx="0" fill="#FBFAF3"/>
+<rect x="0.5" y="0.5" width="829" height="326" rx="0" fill="none" stroke="#D5D5C7" stroke-width="1"/>
+<text x="23" y="29" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="750" fill="#20231F" letter-spacing="1.2">CONTATO</text>
+<text x="807" y="29" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="650" fill="#838579" letter-spacing="0.5" text-anchor="end">VAMOS CONVERSAR</text>
+<path d="M0 46L830 46" stroke="#D5D5C7" fill="none"/>
+<path d="M440 46L440 327" stroke="#D5D5C7" fill="none"/>
+<path d="M440 177L830 177" stroke="#D5D5C7" fill="none"/>
+<path d="M440 261L830 261" stroke="#D5D5C7" fill="none"/>
+<path d="M641 177L641 261" stroke="#D5D5C7" fill="none"/>
+<text x="28" y="132" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="50" font-weight="900" fill="#20231F" letter-spacing="-2.25">Vamos construir</text>
+<text x="28" y="199" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="65" font-weight="900" fill="#D33A12" letter-spacing="-3.0">juntos.</text>
+<text x="28" y="245" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="450" fill="#66695E" letter-spacing="0">Trocas de ideias sobre tecnologia,</text>
+<text x="28" y="267" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="450" fill="#66695E" letter-spacing="0">produtos digitais e desenvolvimento.</text>
+<text x="466" y="73" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="750" fill="#66695E" letter-spacing="1">E-MAIL DIRETO</text>
+<text x="466" y="114" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="800" fill="#20231F" letter-spacing="-0.7">rodrigues.tecnologia.dev</text>
+<text x="466" y="142" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="800" fill="#20231F" letter-spacing="-0.7">@gmail.com</text>
+<text x="466" y="201" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="730" fill="#66695E" letter-spacing="0.65">LOCALIZAÇÃO</text>
+<text x="466" y="234" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#20231F" letter-spacing="0">Alagoas, Brasil</text>
+<text x="661" y="201" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="730" fill="#66695E" letter-spacing="0.65">FUSO HORÁRIO</text>
+<text x="661" y="234" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#20231F" letter-spacing="0">UTC-3</text>
+<text x="466" y="285" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="730" fill="#66695E" letter-spacing="0.75">CONEXÕES</text>
+<rect x="466" y="302" width="7" height="7" rx="3.5" fill="#138C4A"/>
+<text x="485" y="310" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="650" fill="#20231F" letter-spacing="0">Tecnologia e colaboração</text>
+</svg>

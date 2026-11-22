@@ -1,0 +1,72 @@
+{
+  "nome": "Franklin Rodrigues",
+  "titulo": "Desenvolvedor Full Stack",
+  "frase": "Transformando ideias em código e código em soluções.",
+  "apresentacao": [
+    "Estou construindo minha trajetória no desenvolvimento Full Stack, com interesse em aplicações web, interfaces funcionais, APIs e soluções que resolvam problemas reais.",
+    "Meu foco é aprender na prática, transformar conhecimento em projetos e evoluir continuamente como desenvolvedor."
+  ],
+  "email": "rodrigues.tecnologia.dev@gmail.com",
+  "github": "franklinrodrigues-dev",
+  "linkedin": "",
+  "localizacao": "Alagoas, Brasil",
+  "fuso": "UTC-3",
+  "tecnologias": [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Node.js",
+    "FastAPI",
+    "PostgreSQL",
+    "MySQL",
+    "SQLite",
+    "Supabase",
+    "Git",
+    "Vercel",
+    "Postman",
+    "Figma",
+    "npm",
+    "SQL Developer",
+    "ChatGPT"
+  ],
+  "laboratorio": [
+    {
+      "nome": "Aplicações Web",
+      "descricao": "Interfaces e experiências digitais",
+      "tecnologias": [
+        "REACT",
+        "NEXT.JS"
+      ],
+      "icone": "web",
+      "link": "em-desenvolvimento/aplicacoes-web.md"
+    },
+    {
+      "nome": "APIs e Serviços",
+      "descricao": "Soluções e integrações de software",
+      "tecnologias": [
+        "NODE.JS",
+        "FASTAPI"
+      ],
+      "icone": "api",
+      "link": "em-desenvolvimento/apis-e-servicos.md"
+    },
+    {
+      "nome": "Dados e Aplicações",
+      "descricao": "Estruturação e persistência de dados",
+      "tecnologias": [
+        "SQL",
+        "POSTGRESQL"
+      ],
+      "icone": "data",
+      "link": "em-desenvolvimento/dados-e-aplicacoes.md"
+    }
+  ],
+  "nome_curto": "Franklin R",
+  "topo_esquerdo": "SOFTWARE ENGINEER & BUILDER",
+  "topo_direito": "EM EVOLUÇÃO",
+  "contato_titulo": "VAMOS CONVERSAR",
+  "mensagem_contato": "Trocas de ideias sobre tecnologia, produtos digitais e desenvolvimento de software."
+}

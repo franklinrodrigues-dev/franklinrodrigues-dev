@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 123" width="430" height="123" role="img" aria-label="Aplicações Web; acessar página em desenvolvimento">
+<rect x="0" y="0" width="430" height="123" rx="0" fill="#0D1117"/>
+<rect x="0.5" y="0.5" width="429" height="122" rx="0" fill="none" stroke="#30322C" stroke-width="1"/>
+<path d="M44 0L44 123" stroke="#30322C" fill="none"/>
+<path d="M387 0L387 123" stroke="#30322C" fill="none"/>
+<text x="22" y="67" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="650" fill="#929585" letter-spacing="0" text-anchor="middle">01</text>
+<path d="M58 20H102V58H58Z" fill="none" stroke="#FF3800" stroke-width="3"/><path d="M75 31l-8 8 8 8m10-16 8 8-8 8" fill="none" stroke="#FF3800" stroke-width="3"/>
+<text x="117" y="38" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="18.5" font-weight="800" fill="#FFFFE3" letter-spacing="0">Aplicações Web</text>
+<text x="117" y="58" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="450" fill="#C0C0AD" letter-spacing="0">Interfaces e experiências digitais</text>
+<rect x="116" y="77" width="63" height="21" rx="0" fill="none" stroke="#30322C" stroke-width="1"/>
+<text x="122" y="92" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="700" fill="#C0C0AD" letter-spacing="0">REACT</text>
+<rect x="186" y="77" width="64.69999999999999" height="21" rx="0" fill="none" stroke="#30322C" stroke-width="1"/>
+<text x="192" y="92" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="700" fill="#C0C0AD" letter-spacing="0">NEXT.JS</text>
+<text x="410" y="70" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="26" font-weight="700" fill="#FF3800" letter-spacing="0" text-anchor="middle">↗</text>
+</svg>

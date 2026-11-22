@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 45" width="430" height="45" role="img" aria-label="Laboratório de desenvolvimento: categorias">
+<rect x="0" y="0" width="430" height="45" rx="0" fill="#FBFAF3"/>
+<rect x="0.5" y="0.5" width="429" height="44" rx="0" fill="none" stroke="#D5D5C7" stroke-width="1"/>
+<text x="20" y="28" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="750" fill="#20231F" letter-spacing="1.15">LABORATÓRIO</text>
+<text x="410" y="28" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="680" fill="#838579" letter-spacing="0.5" text-anchor="end">EM CONSTRUÇÃO</text>
+</svg>

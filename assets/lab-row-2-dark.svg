@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 98" width="830" height="98" role="img" aria-label="APIs e Serviços; acessar página em desenvolvimento">
+<rect x="0" y="0" width="830" height="98" rx="0" fill="#0D1117"/>
+<rect x="0.5" y="0.5" width="829" height="97" rx="0" fill="none" stroke="#30322C" stroke-width="1"/>
+<path d="M46 0L46 98" stroke="#30322C" fill="none"/>
+<path d="M442 0L442 98" stroke="#30322C" fill="none"/>
+<path d="M665 0L665 98" stroke="#30322C" fill="none"/>
+<path d="M770 0L770 98" stroke="#30322C" fill="none"/>
+<text x="23" y="56" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="650" fill="#929585" letter-spacing="0" text-anchor="middle">02</text>
+<circle cx="76" cy="45" r="10" stroke="#96D20A" stroke-width="5" fill="none"/><circle cx="100" cy="50" r="10" stroke="#96D20A" stroke-width="5" fill="none"/><path d="M82 49L94 45" stroke="#96D20A" stroke-width="5"/>
+<text x="123" y="45" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="23" font-weight="800" fill="#FFFFE3" letter-spacing="0">APIs e Serviços</text>
+<text x="123" y="69" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="450" fill="#C0C0AD" letter-spacing="0">Soluções e integrações de software</text>
+<rect x="463" y="37" width="65" height="24" rx="0" fill="none" stroke="#30322C" stroke-width="1"/>
+<text x="470" y="53" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="750" fill="#C0C0AD" letter-spacing="0">NODE.JS</text>
+<rect x="536" y="37" width="65" height="24" rx="0" fill="none" stroke="#30322C" stroke-width="1"/>
+<text x="543" y="53" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="750" fill="#C0C0AD" letter-spacing="0">FASTAPI</text>
+<text x="718" y="57" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="750" fill="#929585" letter-spacing="0" text-anchor="middle">EM BREVE</text>
+<text x="799" y="61" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="700" fill="#FF3800" letter-spacing="0" text-anchor="middle">↗</text>
+</svg>

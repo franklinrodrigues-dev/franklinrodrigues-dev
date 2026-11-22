@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 98" width="830" height="98" role="img" aria-label="Dados e Aplicações; acessar página em desenvolvimento">
+<rect x="0" y="0" width="830" height="98" rx="0" fill="#FBFAF3"/>
+<rect x="0.5" y="0.5" width="829" height="97" rx="0" fill="none" stroke="#D5D5C7" stroke-width="1"/>
+<path d="M46 0L46 98" stroke="#D5D5C7" fill="none"/>
+<path d="M442 0L442 98" stroke="#D5D5C7" fill="none"/>
+<path d="M665 0L665 98" stroke="#D5D5C7" fill="none"/>
+<path d="M770 0L770 98" stroke="#D5D5C7" fill="none"/>
+<text x="23" y="56" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="650" fill="#838579" letter-spacing="0" text-anchor="middle">03</text>
+<path d="M69 39C69 26 106 26 106 39V63C106 75 69 75 69 63Z" fill="none" stroke="#1CB89D" stroke-width="4"/><path d="M69 48C69 61 106 61 106 48" fill="none" stroke="#1CB89D" stroke-width="4"/>
+<text x="123" y="45" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="23" font-weight="800" fill="#20231F" letter-spacing="0">Dados e Aplicações</text>
+<text x="123" y="69" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="450" fill="#66695E" letter-spacing="0">Estruturação e persistência de dados</text>
+<rect x="463" y="37" width="65" height="24" rx="0" fill="none" stroke="#D5D5C7" stroke-width="1"/>
+<text x="470" y="53" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="750" fill="#66695E" letter-spacing="0">SQL</text>
+<rect x="536" y="37" width="85.0" height="24" rx="0" fill="none" stroke="#D5D5C7" stroke-width="1"/>
+<text x="543" y="53" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="750" fill="#66695E" letter-spacing="0">POSTGRESQL</text>
+<text x="718" y="57" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="750" fill="#838579" letter-spacing="0" text-anchor="middle">EM BREVE</text>
+<text x="799" y="61" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="700" fill="#D33A12" letter-spacing="0" text-anchor="middle">↗</text>
+</svg>
