@@ -8,7 +8,7 @@
   ],
   "email": "rodrigues.tecnologia.dev@gmail.com",
   "github": "franklinrodrigues-dev",
-  "linkedin": "",
+  "linkedin": "em-desenvolvimento/linkedin.md",
   "localizacao": "Alagoas, Brasil",
   "fuso": "UTC-3",
   "tecnologias": [
@@ -29,8 +29,9 @@
     "Postman",
     "Figma",
     "npm",
+    "SQL",
     "SQL Developer",
-    "ChatGPT"
+    "DBeaver"
   ],
   "laboratorio": [
     {
@@ -65,8 +66,10 @@
     }
   ],
   "nome_curto": "Franklin R",
-  "topo_esquerdo": "Engenheiro de Software",
+  "topo_esquerdo": "",
   "topo_direito": "EM EVOLUÇÃO",
   "contato_titulo": "VAMOS CONVERSAR",
-  "mensagem_contato": "Trocas de ideias sobre tecnologia, produtos digitais e desenvolvimento de software."
+  "mensagem_contato": "Trocas de ideias sobre tecnologia, produtos digitais e desenvolvimento de software.",
+  "instagram": "https://www.instagram.com/rodrigues.tecnologia.dev/",
+  "portfolio": "em-desenvolvimento/portfolio.md"
 }

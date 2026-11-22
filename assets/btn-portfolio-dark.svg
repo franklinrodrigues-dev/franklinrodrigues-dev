@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="182" height="43" viewBox="0 0 182 43" role="img" aria-label="PORTFÓLIO">
+<rect x="0.5" y="0.5" width="181" height="42" rx="0" fill="#FFFFE3" stroke="#0D1117" stroke-width="1"/>
+<path d="M18 27v-12h16v12h-16zm4-10v8m4-8v8m4-8v8" fill="none" stroke="#0D1117" stroke-width="1.4"/>
+<text x="47" y="27" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="10.3" font-weight="800" fill="#0D1117" letter-spacing="0.7">PORTFÓLIO</text>
+<text x="170" y="27" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="700" fill="#0D1117" letter-spacing="0" text-anchor="end">↗</text>
+</svg>
