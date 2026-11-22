@@ -293,12 +293,12 @@ def hero(theme,mobile):
     # Sem cargo duplicado à esquerda, como aprovado.
     status=DATA['topo_direito']
     if mobile:
-        out.append(rect(w-110,23,7,7,t['green'],radius=3.5))
+        out.append(rect(w-102,23,7,7,t['green'],radius=3.5))
         out.append(txt(w-16,30,status,t,9.7,750,'muted','end',.3))
         out.append(txt(18,162,DATA['nome_curto'],t,65,900,spacing=-3.6))
         out.append(rect(310,148,18,18,t['accent'],radius=9))
     else:
-        out.append(rect(w-134,23,7,7,t['green'],radius=3.5))
+        out.append(rect(w-112,23,7,7,t['green'],radius=3.5))
         out.append(txt(w-22,30,status,t,10,750,'muted','end',.5))
         out.append(txt(29,187,DATA['nome_curto'],t,123,900,spacing=-7))
         out.append(rect(590,159,25,25,t['accent'],radius=12.5))
@@ -397,7 +397,7 @@ def social_svg(theme,name,label,icon,w):
     elif icon=='email':
         out.append(f'<rect x="{ix}" y="{iy+2}" width="16" height="12" fill="none" stroke="{fore}" stroke-width="1.35"/><path d="M{ix} {iy+2}l8 7 8-7" stroke="{fore}" stroke-width="1.25" fill="none"/>')
     elif icon=='linkedin':
-        out.append(f'<rect x="{ix}" y="{iy}" width="16" height="16" stroke="{fore}" stroke-width="1.2" fill="none"/>'+txt(ix+8,iy+12,'in',dict(text=fore),11,850))
+        out.append(f'<rect x="{ix}" y="{iy}" width="16" height="16" stroke="{fore}" stroke-width="1.2" fill="none"/><circle cx="{ix+4.9}" cy="{iy+5.15}" r="1.25" fill="{fore}"/><rect x="{ix+3.87}" y="{iy+7.24:.2f}" width="2.06" height="5.20" fill="{fore}"/><path d="M{ix+8.05} {iy+7.24:.2f}h1.98v.72c.42-.56 1.03-.84 1.84-.84 1.78 0 2.2 1.17 2.2 2.65v2.67h-1.96v-2.55c0-.65-.09-1.15-.90-1.15-.79 0-1.17.49-1.17 1.25v2.45h-1.99z" fill="{fore}"/>')
     else:
         out.append(f'<path d="M{ix} {iy+14}v-12h16v12h-16zm4-10v8m4-8v8m4-8v8" fill="none" stroke="{fore}" stroke-width="1.4"/>')
     out.append(txt(47,27,label,t,10.3,800,fore,spacing=.7))
