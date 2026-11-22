@@ -1,11 +1,10 @@
-<!-- Gerado por scripts/gerar_perfil.py. Para trocar textos, edite config/perfil.json. -->
 
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/hero-m-light.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg" />
   <source media="(max-width: 600px)" srcset="./assets/hero-m-dark.svg" />
-  <img src="./assets/hero-dark.svg" width="100%" alt="Franklin R. - Engenheiro de Software" />
+  <img src="./assets/hero-dark.svg" width="100%" alt="Franklin R., em evolução" />
 </picture>
 </p>
 
@@ -18,12 +17,19 @@
 </picture>
 </p>
 
+<p align="left">
+  <a href="em-desenvolvimento/portfolio.md" title="PORTFÓLIO"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/btn-portfolio-light.svg" /><img src="./assets/btn-portfolio-dark.svg" width="182" height="43" alt="PORTFÓLIO" /></picture></a>
+  <a href="em-desenvolvimento/linkedin.md" title="LINKEDIN"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/btn-linkedin-light.svg" /><img src="./assets/btn-linkedin-dark.svg" width="158" height="43" alt="LINKEDIN" /></picture></a>
+  <a href="https://www.instagram.com/rodrigues.tecnologia.dev/" title="INSTAGRAM"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/btn-instagram-light.svg" /><img src="./assets/btn-instagram-dark.svg" width="164" height="43" alt="INSTAGRAM" /></picture></a>
+  <a href="mailto:rodrigues.tecnologia.dev@gmail.com" title="E-MAIL"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/btn-email-light.svg" /><img src="./assets/btn-email-dark.svg" width="145" height="43" alt="E-MAIL" /></picture></a>
+</p>
+
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/stack-m-light.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg" />
   <source media="(max-width: 600px)" srcset="./assets/stack-m-dark.svg" />
-  <img src="./assets/stack-dark.svg" width="100%" alt="Tecnologias e ferramentas" />
+  <img src="./assets/stack-dark.svg" width="100%" alt="Tecnologias" />
 </picture>
 </p>
 
@@ -34,26 +40,27 @@
   <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/lab-header-m-light.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/lab-header-light.svg" />
   <source media="(max-width: 600px)" srcset="./assets/lab-header-m-dark.svg" />
-  <img src="./assets/lab-header-dark.svg" width="100%" alt="Laboratório, áreas em construção" />
+  <img src="./assets/lab-header-dark.svg" width="100%" align="left" alt="Laboratório, áreas em construção" />
 </picture>
 <a href="em-desenvolvimento/aplicacoes-web.md" title="Abrir área em desenvolvimento: Aplicações Web"><picture>
   <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/lab-row-1-m-light.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/lab-row-1-light.svg" />
   <source media="(max-width: 600px)" srcset="./assets/lab-row-1-m-dark.svg" />
-  <img src="./assets/lab-row-1-dark.svg" width="100%" alt="Aplicações Web - em desenvolvimento" />
+  <img src="./assets/lab-row-1-dark.svg" width="100%" align="left" alt="Aplicações Web - em desenvolvimento" />
 </picture></a>
 <a href="em-desenvolvimento/apis-e-servicos.md" title="Abrir área em desenvolvimento: APIs e Serviços"><picture>
   <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/lab-row-2-m-light.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/lab-row-2-light.svg" />
   <source media="(max-width: 600px)" srcset="./assets/lab-row-2-m-dark.svg" />
-  <img src="./assets/lab-row-2-dark.svg" width="100%" alt="APIs e Serviços - em desenvolvimento" />
+  <img src="./assets/lab-row-2-dark.svg" width="100%" align="left" alt="APIs e Serviços - em desenvolvimento" />
 </picture></a>
 <a href="em-desenvolvimento/dados-e-aplicacoes.md" title="Abrir área em desenvolvimento: Dados e Aplicações"><picture>
   <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/lab-row-3-m-light.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/lab-row-3-light.svg" />
   <source media="(max-width: 600px)" srcset="./assets/lab-row-3-m-dark.svg" />
-  <img src="./assets/lab-row-3-dark.svg" width="100%" alt="Dados e Aplicações - em desenvolvimento" />
+  <img src="./assets/lab-row-3-dark.svg" width="100%" align="left" alt="Dados e Aplicações - em desenvolvimento" />
 </picture></a>
+<br clear="all" />
 </div>
 
 <p align="center">
