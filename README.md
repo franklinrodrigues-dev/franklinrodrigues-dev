@@ -32,6 +32,42 @@
 </picture>
 </p>
 
+<!-- INÍCIO PORTFÓLIO DE PROJETOS - NÃO MODIFICAR AS OUTRAS SEÇÕES -->
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/selected-work/work-header-m-light.png" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/selected-work/work-header-light.png" />
+  <source media="(max-width: 600px)" srcset="./assets/selected-work/work-header-m-dark.png" />
+  <img src="./assets/selected-work/work-header-dark.png" width="100%" align="left" alt="Portfólio de projetos, quatro projetos em preparação" />
+</picture>
+<a href="em-desenvolvimento/fabryqo.md" title="Abrir projeto Fabryqo em preparação"><picture>
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/selected-work/work-row-1-m-light.png" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/selected-work/work-row-1-light.png" />
+  <source media="(max-width: 600px)" srcset="./assets/selected-work/work-row-1-m-dark.png" />
+  <img src="./assets/selected-work/work-row-1-dark.png" width="100%" align="left" alt="Fabryqo - em preparação, 2026" />
+</picture></a>
+<a href="em-desenvolvimento/margiks.md" title="Abrir projeto Margiks em preparação"><picture>
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/selected-work/work-row-2-m-light.png" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/selected-work/work-row-2-light.png" />
+  <source media="(max-width: 600px)" srcset="./assets/selected-work/work-row-2-m-dark.png" />
+  <img src="./assets/selected-work/work-row-2-dark.png" width="100%" align="left" alt="Margiks - em preparação, 2026" />
+</picture></a>
+<a href="em-desenvolvimento/buqvia.md" title="Abrir projeto Buqvia em preparação"><picture>
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/selected-work/work-row-3-m-light.png" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/selected-work/work-row-3-light.png" />
+  <source media="(max-width: 600px)" srcset="./assets/selected-work/work-row-3-m-dark.png" />
+  <img src="./assets/selected-work/work-row-3-dark.png" width="100%" align="left" alt="Buqvia - em preparação, 2026" />
+</picture></a>
+<a href="em-desenvolvimento/rigqon.md" title="Abrir projeto Rigqon em preparação"><picture>
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/selected-work/work-row-4-m-light.png" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/selected-work/work-row-4-light.png" />
+  <source media="(max-width: 600px)" srcset="./assets/selected-work/work-row-4-m-dark.png" />
+  <img src="./assets/selected-work/work-row-4-dark.png" width="100%" align="left" alt="Rigqon - em preparação, 2026" />
+</picture></a>
+<br clear="all" />
+</div>
+<!-- FIM PORTFÓLIO DE PROJETOS -->
+
 <!-- Cada linha do laboratório tem seu próprio link clicável. -->
 
 <div align="center">
