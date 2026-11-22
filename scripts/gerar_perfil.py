@@ -113,58 +113,6 @@ def stack(theme,mobile):
         out.append(txt(x+52,y+rowh/2+4,name,t,12.2 if mobile else 12.8,650))
     return close(out)
 
-def mark(kind,x,y,t):
-    a=t['accent']
-    if kind=='web':
-        return f'<path d="M{x} {y+5}H{x+44}V{y+43}H{x}Z" fill="none" stroke="{a}" stroke-width="3"/>'+f'<path d="M{x+17} {y+16}l-8 8 8 8m10-16 8 8-8 8" fill="none" stroke="{a}" stroke-width="3"/>'
-    if kind=='api':
-        return f'<circle cx="{x+12}" cy="{y+20}" r="10" stroke="#96D20A" stroke-width="5" fill="none"/><circle cx="{x+36}" cy="{y+25}" r="10" stroke="#96D20A" stroke-width="5" fill="none"/><path d="M{x+18} {y+24}L{x+30} {y+20}" stroke="#96D20A" stroke-width="5"/>'
-    return f'<path d="M{x+5} {y+14}C{x+5} {y+1} {x+42} {y+1} {x+42} {y+14}V{y+38}C{x+42} {y+50} {x+5} {y+50} {x+5} {y+38}Z" fill="none" stroke="#1CB89D" stroke-width="4"/><path d="M{x+5} {y+23}C{x+5} {y+36} {x+42} {y+36} {x+42} {y+23}" fill="none" stroke="#1CB89D" stroke-width="4"/>'
-
-def lab_header(theme,mobile):
-    t=DARK if theme=='dark' else LIGHT;w=430 if mobile else 830;h=45
-    out=base(w,h,t,'Laboratório de desenvolvimento: categorias')
-    out.append(rect(.5,.5,w-1,h-1,'none',t['line']))
-    out.append(txt(20,28,'LABORATÓRIO',t,11,750,spacing=1.15))
-    out.append(txt(w-20,28,'EM CONSTRUÇÃO',t,10,680,'dim','end',.5))
-    return close(out)
-
-def lab_row(theme,mobile,index):
-    t=DARK if theme=='dark' else LIGHT
-    w,h=(430,123) if mobile else (830,98)
-    job=DATA['laboratorio'][index]
-    out=base(w,h,t,job['nome']+'; acessar página em desenvolvimento')
-    out.append(rect(.5,.5,w-1,h-1,'none',t['line']))
-    # Sem dados de projetos prontos: são áreas de criação.
-    if mobile:
-        out.append(line(44,0,44,h,t));out.append(line(387,0,387,h,t))
-        out.append(txt(22,67,f'{index+1:02}',t,12,650,'dim','middle'))
-        out.append(mark(job['icone'],58,15,t))
-        out.append(txt(117,38,job['nome'],t,18.5,800))
-        out.append(txt(117,58,job['descricao'],t,11,450,'muted'))
-        x=116
-        for tag in job['tecnologias']:
-            width= min(104, max(63, len(tag)*7.1+15))
-            out.append(rect(x,77,width,21,'none',t['line']))
-            out.append(txt(x+6,92,tag,t,10,700,'muted'))
-            x+=width+7
-        out.append(txt(410,70,'↗',t,26,700,'accent','middle'))
-    else:
-        for boundary in (46,442,665,770):out.append(line(boundary,0,boundary,h,t))
-        out.append(txt(23,56,f'{index+1:02}',t,12,650,'dim','middle'))
-        out.append(mark(job['icone'],64,25,t))
-        out.append(txt(123,45,job['nome'],t,23,800))
-        out.append(txt(123,69,job['descricao'],t,12.5,450,'muted'))
-        x=463
-        for tag in job['tecnologias']:
-            width=min(105,max(65,len(tag)*6.9+16))
-            out.append(rect(x,37,width,24,'none',t['line']))
-            out.append(txt(x+7,53,tag,t,10,750,'muted'))
-            x+=width+8
-        out.append(txt(718,57,'EM BREVE',t,10.5,750,'dim','middle'))
-        out.append(txt(799,61,'↗',t,27,700,'accent','middle'))
-    return close(out)
-
 def contact(theme,mobile):
     t=DARK if theme=='dark' else LIGHT
     w,h=(430,420) if mobile else (830,327)
@@ -210,12 +158,11 @@ def contact(theme,mobile):
     return close(out)
 
 def pic(name,alt):
-    align=' align="left"' if name.startswith('lab-') else ''
     return f'''<picture>
   <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/{name}-m-light.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/{name}-light.svg" />
   <source media="(max-width: 600px)" srcset="./assets/{name}-m-dark.svg" />
-  <img src="./assets/{name}-dark.svg" width="100%"{align} alt="{esc(alt)}" />
+  <img src="./assets/{name}-dark.svg" width="100%" alt="{esc(alt)}" />
 </picture>'''
 def pic_footer():
     return '''<picture>
@@ -224,59 +171,6 @@ def pic_footer():
   <source media="(max-width: 600px)" srcset="./assets/assinatura-m-dark.gif" />
   <img src="./assets/assinatura-dark.gif" width="100%" alt="Assinatura Franklin Rodrigues com degradê animado" />
 </picture>'''
-
-def make_readme():
-    out=['<!-- Gerado por scripts/gerar_perfil.py. Para trocar textos, edite config/perfil.json. -->']
-    for name,alt in [('hero','Franklin R. - Software Engineer and Builder'),('about','Sobre mim'),('stack','Tecnologias e ferramentas')]:
-        out.append(f'<p align="center">\n{pic(name,alt)}\n</p>')
-    out.append('<!-- Cada linha do laboratório tem seu próprio link clicável. -->')
-    head=pic('lab-header','Laboratório, áreas em construção')
-    rows=[f'<a href="{esc(j["link"])}" title="Abrir área em desenvolvimento: {esc(j["nome"])}">{pic(f"lab-row-{i+1}",j["nome"]+" - em desenvolvimento")}</a>' for i,j in enumerate(DATA['laboratorio'])]
-    out.append('<div align="center">\n'+head+'\n'+ '\n'.join(rows)+'\n<br clear="all" />\n</div>')
-    out.append(f'<p align="center">\n<a href="mailto:{esc(DATA["email"])}" title="Enviar e-mail">{pic("contact","Contato profissional")}</a>\n</p>')
-    out.append(f'<p align="center">\n{pic_footer()}\n</p>')
-    return '\n\n'.join(out)+'\n'
-
-def make_preview():
-    parts=['hero','about','stack','lab-header']+[f'lab-row-{i+1}' for i in range(len(DATA['laboratorio']))]+['contact','assinatura']
-    def source(name):
-        if name=='assinatura': return pic_footer()
-        return pic(name,name.replace('-', ' '))
-    out=['''<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prévia do README v2 | Franklin Rodrigues</title><style>
-    html,body{margin:0;background:#0d1117;color:#ffffe3;font-family:Inter,Arial,sans-serif}main{max-width:830px;margin:26px auto 44px;padding:0 12px}header{padding-bottom:18px}header h1{font-size:20px;margin:14px 0 4px}header p{color:#aaa;margin:0;font-size:12px}.tip{display:inline-block;padding:7px 12px;border:1px solid #333;color:#ff481c;font-size:11px}main img{display:block;width:100%;height:auto}main a{display:block;line-height:0}main a:hover{opacity:.88}.section{margin-bottom:14px}.lab{margin-bottom:14px}
-    </style></head><body><main><header><span class="tip">PRÉVIA LOCAL V2 • NÃO PUBLICADO</span><h1>Franklin Rodrigues</h1><p>As setas abrem páginas reais de desenvolvimento. Nada foi publicado no seu GitHub.</p></header>''']
-    for tag in parts:
-        item=source(tag)
-        if tag.startswith('lab-row-'):
-            idx=int(tag.rsplit('-',1)[-1])-1
-            item=f'<a href="{esc(DATA["laboratorio"][idx]["link"])}" title="Abrir página de desenvolvimento">{item}</a>'
-        elif tag=='contact':
-            item=f'<a href="mailto:{esc(DATA["email"])}">{item}</a>'
-        if tag in ('hero','about','stack','contact','assinatura'):
-            item='<div class="section">'+item+'</div>'
-        if tag=='lab-header':item='<div class="lab">'+item
-        if tag=='lab-row-3':item+='</div>'
-        out.append(item)
-    out.append('</main></body></html>')
-    (BASE/'PREVIA.html').write_text('\n'.join(out),encoding='utf8')
-
-def make_pages():
-    for j in DATA['laboratorio']:
-        p=BASE/j['link'];p.parent.mkdir(exist_ok=True,parents=True)
-        content=f'''# {j['nome']}\n\n**Status: em preparação**\n\nEste espaço fará parte do laboratório de desenvolvimento de Franklin Rodrigues.\n\nAqui serão publicados projetos, códigos, decisões técnicas e demonstrações conforme forem desenvolvidos.\n\n**Temas de interesse:** {', '.join(j['tecnologias'])}.\n\nNenhum projeto foi anunciado como concluído nesta seção.\n\n[Voltar ao perfil](../README.md)\n'''
-        p.write_text(content,encoding='utf8')
-
-def build():
-    for theme in ('dark','light'):
-        for mobile in (False,True):
-            suffix='-m' if mobile else ''
-            for name,fn in [('hero',hero),('about',about),('stack',stack),('lab-header',lab_header),('contact',contact)]:
-                (ASSETS/f'{name}{suffix}-{theme}.svg').write_text(fn(theme,mobile),encoding='utf8')
-            for i in range(len(DATA['laboratorio'])):
-                (ASSETS/f'lab-row-{i+1}{suffix}-{theme}.svg').write_text(lab_row(theme,mobile,i),encoding='utf8')
-    (BASE/'README.md').write_text(make_readme(),encoding='utf8')
-    make_preview();make_pages()
-    print('README + SVGs + páginas em desenvolvimento gerados localmente, sem publicar.')
 
 # V5 aprovada: sobreposição das seções atualizadas sobre a base V2.
 # Todo conteúdo é regenerável a partir de config/perfil.json.
@@ -404,6 +298,15 @@ def social_svg(theme,name,label,icon,w):
     if name=='portfolio':out.append(txt(w-12,27,'↗',t,14,700,fore,'end'))
     return close(out)
 
+def portfolio_section():
+    readme=(BASE/'README.md').read_text(encoding='utf8')
+    start=readme.find('<!-- INÍCIO PORTFÓLIO DE PROJETOS')
+    end_marker='<!-- FIM PORTFÓLIO DE PROJETOS -->'
+    end=readme.find(end_marker,start)
+    if start<0 or end<start:
+        raise ValueError('Seção do portfólio não encontrada no README; geração interrompida.')
+    return readme[start:end+len(end_marker)]
+
 def make_readme():
     out=['<!-- Perfil Franklin Rodrigues, versão V5 aprovada. Para trocar dados edite config/perfil.json, depois execute python scripts/gerar_perfil.py. -->']
     out.append(f'<p align="center">\n{pic("hero","Franklin R., em evolução")}\n</p>')
@@ -413,39 +316,26 @@ def make_readme():
         social.append(f'<a href="{esc(url)}" title="{esc(label)}"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/btn-{name}-light.svg" /><img src="./assets/btn-{name}-dark.svg" width="{w}" height="43" alt="{esc(label)}" /></picture></a>')
     out.append('<p align="left">\n  '+'\n  '.join(social)+'\n</p>')
     out.append(f'<p align="center">\n{pic("stack","Tecnologias")}\n</p>')
-    out.append('<!-- Cada linha do laboratório tem seu próprio link clicável. -->')
-    head=pic('lab-header','Laboratório, áreas em construção')
-    rows=[f'<a href="{esc(j["link"])}" title="Abrir área em desenvolvimento: {esc(j["nome"])}">{pic(f"lab-row-{i+1}",j["nome"]+" - em desenvolvimento")}</a>' for i,j in enumerate(DATA['laboratorio'])]
-    out.append('<div align="center">\n'+head+'\n'+ '\n'.join(rows)+'\n<br clear="all" />\n</div>')
+    out.append(portfolio_section())
     out.append(f'<p align="center">\n<a href="mailto:{esc(DATA["email"])}" title="Enviar e-mail">{pic("contact","Contato profissional")}</a>\n</p>')
     out.append(f'<p align="center">\n{pic_footer()}\n</p>')
     return '\n\n'.join(out)+'\n'
 
 def make_preview():
-    out=['''<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Franklin Rodrigues: prévia dos arquivos para GitHub</title><style>body{background:#0d1117;color:#ffffe3;font:14px Arial;margin:0} main{max-width:830px;margin:15px auto;padding:8px}main img{max-width:100%;height:auto;display:block} p{margin:0 0 12px} .social{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}.social img{width:auto} .lab a{display:block;line-height:0}.lab{margin-bottom:12px} .lead{font-size:12px;color:#ff3800}</style></head><body><main><p class="lead">PRÉVIA LOCAL, SEM PUBLICAÇÃO NO GITHUB</p>''']
-    out.append(pic('hero','Cabeçalho'))
-    out.append('<p></p>'+pic('about','Sobre mim'))
-    out.append('<p></p><nav class="social">')
-    for name,label,icon,url,w in SOCIAL:out.append(f'<a href="{esc(url)}" title="{esc(label)}"><img src="assets/btn-{name}-dark.svg" width="{w}" height="43" alt="{esc(label)}"></a>')
-    out.append('</nav>'+pic('stack','Tecnologias'))
-    out.append('<div class="lab">'+pic('lab-header','Laboratório'))
-    for i,j in enumerate(DATA['laboratorio']):out.append(f'<a href="{esc(j["link"])}">{pic(f"lab-row-{i+1}",j["nome"])}</a>')
-    out.append('</div><a href="mailto:'+esc(DATA['email'])+'">'+pic('contact','Contato')+'</a>')
-    out.append('<p></p>'+pic_footer()+'</main></body></html>')
-    (BASE/'PREVIA_GITHUB.html').write_text('\n'.join(out),encoding='utf8')
+    content=make_readme()
+    page='''<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prévia local do README</title><style>body{background:#0d1117;color:#ffffe3;font:16px Arial;margin:0}main{max-width:830px;margin:24px auto;padding:0 12px}img{max-width:100%;height:auto}a{color:#58a6ff}</style></head><body><main>'''+content+'</main></body></html>'
+    (BASE/'PREVIA_GITHUB.html').write_text(page,encoding='utf8')
 
 def build():
     for theme in ('dark','light'):
         for mobile in (False,True):
             suffix='-m' if mobile else ''
-            for name,fn in [('hero',hero),('about',about),('stack',stack),('lab-header',lab_header),('contact',contact)]:
+            for name,fn in [('hero',hero),('about',about),('stack',stack),('contact',contact)]:
                 (ASSETS/f'{name}{suffix}-{theme}.svg').write_text(fn(theme,mobile),encoding='utf8')
-            for i in range(len(DATA['laboratorio'])):
-                (ASSETS/f'lab-row-{i+1}{suffix}-{theme}.svg').write_text(lab_row(theme,mobile,i),encoding='utf8')
         for name,label,ico,url,w in SOCIAL:
             (ASSETS/f'btn-{name}-{theme}.svg').write_text(social_svg(theme,name,label,ico,w),encoding='utf8')
     (BASE/'README.md').write_text(make_readme(),encoding='utf8')
-    make_preview();make_pages()
+    make_preview()
     print('README V5, SVGs, botões e links gerados localmente. Nada foi enviado ao GitHub.')
 
 if __name__=='__main__':build()

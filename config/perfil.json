@@ -33,38 +33,6 @@
     "SQL Developer",
     "DBeaver"
   ],
-  "laboratorio": [
-    {
-      "nome": "Aplicações Web",
-      "descricao": "Interfaces e experiências digitais",
-      "tecnologias": [
-        "REACT",
-        "NEXT.JS"
-      ],
-      "icone": "web",
-      "link": "em-desenvolvimento/aplicacoes-web.md"
-    },
-    {
-      "nome": "APIs e Serviços",
-      "descricao": "Soluções e integrações de software",
-      "tecnologias": [
-        "NODE.JS",
-        "FASTAPI"
-      ],
-      "icone": "api",
-      "link": "em-desenvolvimento/apis-e-servicos.md"
-    },
-    {
-      "nome": "Dados e Aplicações",
-      "descricao": "Estruturação e persistência de dados",
-      "tecnologias": [
-        "SQL",
-        "POSTGRESQL"
-      ],
-      "icone": "data",
-      "link": "em-desenvolvimento/dados-e-aplicacoes.md"
-    }
-  ],
   "nome_curto": "Franklin R",
   "topo_esquerdo": "",
   "topo_direito": "EM EVOLUÇÃO",
