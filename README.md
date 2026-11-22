@@ -68,36 +68,6 @@
 </div>
 <!-- FIM PORTFÓLIO DE PROJETOS -->
 
-<!-- Cada linha do laboratório tem seu próprio link clicável. -->
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/lab-header-m-light.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/lab-header-light.svg" />
-  <source media="(max-width: 600px)" srcset="./assets/lab-header-m-dark.svg" />
-  <img src="./assets/lab-header-dark.svg" width="100%" align="left" alt="Laboratório, áreas em construção" />
-</picture>
-<a href="em-desenvolvimento/aplicacoes-web.md" title="Abrir área em desenvolvimento: Aplicações Web"><picture>
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/lab-row-1-m-light.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/lab-row-1-light.svg" />
-  <source media="(max-width: 600px)" srcset="./assets/lab-row-1-m-dark.svg" />
-  <img src="./assets/lab-row-1-dark.svg" width="100%" align="left" alt="Aplicações Web - em desenvolvimento" />
-</picture></a>
-<a href="em-desenvolvimento/apis-e-servicos.md" title="Abrir área em desenvolvimento: APIs e Serviços"><picture>
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/lab-row-2-m-light.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/lab-row-2-light.svg" />
-  <source media="(max-width: 600px)" srcset="./assets/lab-row-2-m-dark.svg" />
-  <img src="./assets/lab-row-2-dark.svg" width="100%" align="left" alt="APIs e Serviços - em desenvolvimento" />
-</picture></a>
-<a href="em-desenvolvimento/dados-e-aplicacoes.md" title="Abrir área em desenvolvimento: Dados e Aplicações"><picture>
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/lab-row-3-m-light.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/lab-row-3-light.svg" />
-  <source media="(max-width: 600px)" srcset="./assets/lab-row-3-m-dark.svg" />
-  <img src="./assets/lab-row-3-dark.svg" width="100%" align="left" alt="Dados e Aplicações - em desenvolvimento" />
-</picture></a>
-<br clear="all" />
-</div>
-
 <p align="center">
 <a href="mailto:rodrigues.tecnologia.dev@gmail.com" title="Enviar e-mail"><picture>
   <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/contact-m-light.svg" />
