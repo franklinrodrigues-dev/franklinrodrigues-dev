@@ -18,7 +18,7 @@
 
 <p align="left">
   <a href="em-desenvolvimento/portfolio.md" title="PORTFÓLIO"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/btn-portfolio-light.svg" /><img src="./assets/btn-portfolio-dark.svg" width="182" height="43" alt="PORTFÓLIO" /></picture></a>
-  <a href="em-desenvolvimento/linkedin.md" title="LINKEDIN"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/btn-linkedin-light.svg" /><img src="./assets/btn-linkedin-dark.svg" width="158" height="43" alt="LINKEDIN" /></picture></a>
+  <a href="https://www.linkedin.com/in/franklinrodrigues-dev/" title="LINKEDIN"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/btn-linkedin-light.svg" /><img src="./assets/btn-linkedin-dark.svg" width="158" height="43" alt="LINKEDIN" /></picture></a>
   <a href="https://www.instagram.com/rodrigues.tecnologia.dev/" title="INSTAGRAM"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/btn-instagram-light.svg" /><img src="./assets/btn-instagram-dark.svg" width="164" height="43" alt="INSTAGRAM" /></picture></a>
   <a href="mailto:rodrigues.tecnologia.dev@gmail.com" title="E-MAIL"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/btn-email-light.svg" /><img src="./assets/btn-email-dark.svg" width="145" height="43" alt="E-MAIL" /></picture></a>
 </p>
